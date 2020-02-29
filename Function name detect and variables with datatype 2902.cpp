@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -54,7 +55,6 @@ string checkFuncName(string s)
 {
     string restr;
     map<string,int>mp;
-    mp["int"]++;  mp["float"]++;    mp["double"]++;   mp["char"]++;   mp["void"]++;
 
     int flag=0;
     for(int i=0; i< s.size(); i++)
@@ -112,7 +112,7 @@ void printVaribaleName(string s)
 
 int main()
 {
-    std::ifstream file("input.cpp");
+    std::ifstream file("D.cpp");
     std::string s;
 
     while (std::getline(file, s)) {
@@ -133,4 +133,3 @@ int main()
         }
     }
 }
-
