@@ -1,0 +1,12 @@
+int x = 0;
+x++; 
+if(1){    
+if(1){    
+print()	  
+}	  
+else{     
+print()   
+}	  
+}  
+y =x;
+}  
